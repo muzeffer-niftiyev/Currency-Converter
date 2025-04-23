@@ -127,7 +127,7 @@ main .converter {
 }
 
 .hamburger .dropdown p {
-  padding:10px 15px;
+  padding: 10px 15px;
   margin: 0;
   border-radius: 4px;
   font-size: 16px;
@@ -136,7 +136,7 @@ main .converter {
   cursor: pointer;
 }
 
-.hamburger .dropdown p:hover{
+.hamburger .dropdown p:hover {
   background-color: #e4e7eb;
 }
 
@@ -171,11 +171,11 @@ main .converter {
   width: 100%;
 }
 
-.show{
+.show {
   display: block !important;
 }
 
-.hide{
+.hide {
   display: none !important;
 }
 

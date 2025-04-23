@@ -14,8 +14,6 @@ const hamburgerDropdown = hamburgerContainer.querySelector(".dropdown");
 import { API_KEY } from "./constants.js";
 import { DELAY_TIME } from "./constants.js";
 
-//RESPONSIVLIYY TELEFON UCUN
-
 let currency1 = "RUB";
 let currency2 = "USD";
 let input1Timer;
@@ -119,7 +117,6 @@ const updateForNewCurrency = async () => {
 
     if (lastChanged === "input1") {
       const value = +input1.value;
-      console.log(value);
       input2.value = value ? value.toFixed(5) : 0;
     } else {
       const value = +input2.value;
@@ -194,7 +191,7 @@ const showError = (message) => {
 };
 
 const hideError = () => {
-  errorDiv.style.display = 'none';
+  errorDiv.style.display = "none";
 };
 
 window.addEventListener("online", async () => {
