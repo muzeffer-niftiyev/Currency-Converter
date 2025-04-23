@@ -13,30 +13,40 @@
     <nav>
         <div>
             <img src="./assets/logo.svg" alt="">
-
             <div class="links">
                 <h5>Bank</h5>
-                <h5>Business</h5>
-                <h5>Investments</h5>
-                <h5>Insurance</h5>
-                <h5>Mobile</h5>
-                <h5>Travel</h5>
-                <h5>Entertainment</h5>
+                <h5>Biznes</h5>
+                <h5>Yatırımlar</h5>
+                <h5>Sığorta</h5>
+                <h5>Mobil</h5>
+                <h5>Səyahət</h5>
+                <h5>Əyləncə</h5>
             </div>
             <div class="btns">
-                <button class="hamburger">
-                    &#9776;
-                </button>
-                <button class="enter">Enter</button>
+                <div class="hamburger">
+                    <button class="hide">
+                        &#9776;
+                    </button>
+                    <div class="dropdown hide">
+                        <p>Bank</p>
+                        <p>Biznes</p>
+                        <p>Yatırımlar</p>
+                        <p>Sığorta</p>
+                        <p>Mobil</p>
+                        <p>Səyahət</p>
+                        <p>Əyləncə</p>
+                    </div>
+                </div>
+                <button class="enter">Daxil olun</button>
             </div>
         </div>
     </nav>
 
     <main>
-        <h1>Online Currency Converter</h1>
+        <h1>Onlayn Valyuta Çevirici</h1>
         <div class="converter">
             <div class="con-1">
-                <span>I have</span>
+                <span>Məndə var</span>
                 <div class="currency">
                     <div class="active">RUB</div>
                     <div>USD</div>
@@ -49,7 +59,7 @@
                 </div>
             </div>
             <div class="con-2">
-                <span>Want to convert</span>
+                <span>Çevirmək istəyirəm</span>
                 <div class="currency">
                     <div>RUB</div>
                     <div class="active">USD</div>
@@ -61,6 +71,9 @@
                     <span>1 Rub = 0.1 USD</span>
                 </div>
             </div>
+        </div>
+        <div class="error">
+            <p></p>
         </div>
     </main>
 </body>
